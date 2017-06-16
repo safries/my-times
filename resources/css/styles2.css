@@ -1,0 +1,128 @@
+/* HEADER */
+
+.banner {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-between;
+  /* position: fixed;
+  z-index: 1; */
+  }
+
+  .logo {
+   display: flex;
+   flex-grow: 1;
+   padding-left: 30px;
+   align-items: center;
+    }
+
+    #brand {
+      color: MediumAquamarine;
+    }
+
+ .logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+ .logo span {
+  color: MediumAquamarine;
+}
+
+nav {
+  padding-right: 40px;
+  justify-content: flex-end;
+    }
+
+a {
+  color: black;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* BODY CONTENT */
+.content {
+  display: flex;
+  margin: 1 auto;
+  padding-top: 10px;
+  border: 1px solid black;
+  width: 100%;
+  justify-content: space-between;
+  }
+
+.column {
+display: inline-flex;
+}
+
+.column-large {
+  display: inline-flex;
+  flex-direction: column;
+  width: 630px;
+  /*border: 3px solid blue; */
+  flex-shrink: 2
+}
+.column-medium {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  /* border: 3px solid green; */
+  flex-shrink: 2
+}
+.column-small {
+  flex-direction: column;
+  width: 240px;
+  /* border: 3px solid yellow; */
+  flex-shrink: 2
+}
+
+.main-story {
+
+  border: 1px solid black;
+  height: auto;
+}
+.story {
+
+  border: 1px solid black;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
